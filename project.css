@@ -1,0 +1,127 @@
+body {
+    margin: 4% 1%;
+    background-color: rgb(247, 247, 247);
+  }
+  .first {
+    /* border: 2px solid; */
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 2.4% 6% 2.4% 10%;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+    width: 105%;
+  }
+  .first #item-1 img {
+    height: 26px;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .first #item-1 {
+    margin-top: -3px;
+  }
+  .first #item-3 img {
+    height: 26px;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .first #item-3{
+      margin-top: -3px;
+  }
+  .second{
+    margin-top: 40px;
+    display: grid;
+    /* grid-template-columns: repeat(1,auto); */
+    grid-template-columns: auto;
+}
+.item-5{
+    margin: auto;
+    font-weight: normal;
+    font-size: 510%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item-6{
+    margin: auto;
+    font-weight:normal;
+    font-size: 510%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container {
+    margin-top: 40px;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 17% 17% auto;
+    justify-content: center;
+  }
+  .food {
+    border: 1px solid;
+    margin: 16px;
+    height: 85px;
+    width: 200px;
+    /* padding: 10% 31%; */
+  }
+  .food img {
+    height: 72%;
+    padding-top: 5%;
+    padding-left: 9%;
+  }
+  #food1, #food2, #food3 {
+    /* border-radius: 9px; */
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -6px -2px 12px 7px #d0d0d0;
+  }
+  #food2 img {
+    padding-left: 0%;
+  }
+  .foodmenu1 {
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 18% 17% 17%;
+    justify-content: center;
+    padding-left: 3%;
+    margin-top: -0.5%;
+  }
+  .foodmenu1 strong, .container2 strong{
+      font-size:24px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: lighter;
+  }
+  .container2 {
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 17% 17%;
+    justify-content: center;
+    margin-top: 2.4%;
+  }
+  .container2 img {
+    height: 72%;
+    padding-top: 5%;
+  }
+  .m2 {
+    border: 2px solid white;
+    margin: 16px;
+    height: 85px;
+    width: 200px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -6px -2px 12px 7px #d0d0d0;
+  }
+  .last {
+    display: grid;
+    grid-template-columns: 340px auto;
+    /* height: 26px; */
+    margin-top: 48%;
+    /* width: 152%; */
+    margin-left: 29%;
+    font-size: 23px;
+    align-items: baseline;
+  }
+
+  .l {
+    height: 4%;
+    width: 101%;
+
+  }
